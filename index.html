@@ -4,8 +4,11 @@
 	<head>
 		<title>Matt Wilson - My Profile</title>
 		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="main.css" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"  />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<style>
+		#more {display: none;}
+		</style>
 	</head>
 	<body class="is-preload">
 
@@ -20,8 +23,9 @@
 								<header id="header">
 									<a href="index.html" class="logo"><strong>My Profile</strong> by Matt Wilson</a>
 									<ul class="icons">
-										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-										<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+										<li><a href="https://www.facebook.com/matty.wilson.794" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+										<li><a href="https://github.com/MattWilsonRMIT" class="icon brands fa-github"><span class="label">Github</span></a></li>
+										<li><a href="#" class="icon brands fa-discord"><span class="label">Discord</span></a></li>
 									</ul>
 								</header>
 
@@ -37,61 +41,69 @@
 										convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas. 
 										Pellentesque sapien ac quam. Lorem ipsum dolor sit nullam.</p>
 										
+										
 										<ul class="actions">
-											<li><a href="#" class="button big">Learn More</a></li>
+											<!--<li><a href="#" class="button big">Learn More</a></li>-->
 										</ul>
 									</div>
 									<span class="image object">
 										<img src="avatar.jpg" alt="" />
 									</span>
 								</section>
+								
 
 							<!-- Section -->
 								<section>
 									<header class="major">
-										<h2>Erat lacinia</h2>
+										<h2>Dreams & Projects</h2>
 									</header>
 									<div class="features">
 										<article>
-											<span class="icon fa-gem"></span>
+											<a href="https://www.seek.com.au/job/40540131?type=standout#searchRequestToken=22dfb4f9-94da-4dd3-84c5-a55dbc388a67" target="_blank" class="icon solid fa-door-open"><span></span></a>
 											<div class="content">
-												<h3>Github</h3>
-												<p>Here you will find all of my current and in progress works</p>
+												<h3>My Dream Job</h3>
+												<p>The prospect of combining my passion of web design and development with my second great love, science, sounds like a dream
+												come true. This position would be close to my goal at the end of this journey into IT<span id="dots">...</span><span id="more"><img margin="1em 0 0 0" width="100%" height="100%" src="images/DreamJob.png"></span></p>
+												<button onclick="myFunction()" id="myBtn">Read more</button>
 											</div>
 										</article>
 										<article>
-											<span class="icon solid fa-paper-plane"></span>
+										<span class="icon brands fa-java"></span>
+											<div class="content">
+												<h3>Java Projects</h3>
+												<p>Currently I am dreaming up an application that will allow every-day Monster Hunter enthusiasts to easily caluclate the 
+												damage of not just the weapon, but each individual attack without having to do the math themselves.</br>
+												This is the first of many to come I am sure, looking for a gap in the application market using my personal passions.</p>
+											
+											</div>
+										</article>
+										<article>
+											<span class="icon brands fa-codepen"></span>
 											<div class="content">
 												<h3>CodePen</h3>
-												<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+												<p>Most of my web design learning has been undertaken over at my CodePen profile. This is an excellent resource to 
+												share my webpages in a live environment without having to host them.</p>
 											</div>
 										</article>
 										<article>
-											<span class="icon solid fa-rocket"></span>
+																					<span class="icon brands fa-github"></span>
 											<div class="content">
-												<h3>Projects</h3>
-												<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											</div>
-										</article>
-										<article>
-											<span class="icon solid fa-signal"></span>
-											<div class="content">
-												<h3>ITEM 4</h3>
-												<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+												<h3>Github</h3>
+												<p>My Github is home to my current and future projects. Everything from successful University projects 
+												through to personal endeavours and concepts can be found here.</p>
 											</div>
 										</article>
 									</div>
 								</section>
 
-							<!-- Section -->
+							<!-- Section 
 								<section>
 								
 									<div class="posts">
 								
-											</ul>
-										</article>
+											
 									</div>
-								</section>
+								</section> -->
 
 						</div>
 					</div>
@@ -105,20 +117,20 @@
 							<!-- Menu -->
 								<nav id="menu">
 									<header class="major">
-										<h2></h2>
+										<h2>Navigation</h2>
 									</header>
 									<ul>
 										<li><a href="index.html">Homepage</a></li>
 										<li>
 										<span class="opener">GitHub</span>
 											<ul>
-												<li><a href="#">Repository 1</a></li>
-												<li><a href="#">Repository 2</a></li>
-												<li><a href="#">Repository 3</a></li>
-												<li><a href="#">Repository 4</a></li>
+												<li><a href="https://github.com/MattWilsonRMIT">Profile</a></li>
+												<li><a href="https://github.com/MattWilsonRMIT/Assessment1MyProfile">Web Page</a></li>
+												<li><a href="#">My First Java Program</a></li>
+												<li><a href="#">Future Concepts</a></li>
 											</ul>
 											</li>
-										<li><a href="elements.html">CodePen</a></li>
+										<li><a href="https://codepen.io/Lamb_gg">CodePen</a></li>
 										
 											
 										
@@ -131,15 +143,17 @@
 									<header class="major">
 										<h2>Get in touch</h2>
 									</header>
-									<p>Sed varius enim lorem ullamcorper dolore aliquam aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin sed aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+									<p>Feel free to contact me via Email, Discord or Facebook</p>
 									<ul class="contact">
-										<li class="icon solid fa-envelope"><a href="#">s3826711@student.rmit.edu.au</a></li>																
+									    <li class="icon solid fa-envelope"><a href="#">s3826711@student.rmit.edu.au</a></li>
+										<li class="icon brands fa-discord"><a href="#">🐑 Lamb#3737</a></li>
+										<li class="icon brands fa-facebook"><a href="https://www.facebook.com/matty.wilson.794">/matty.wilson.794</a></li>
 									</ul>
 								</section>
 
 							<!-- Footer -->
 								<footer id="footer">
-									<p class="copyright">&copy; Untitled. All rights reserved. Demo Images: <a href="https://unsplash.com">Unsplash</a>. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+									<!--<p class="copyright">&copy; Untitled. All rights reserved. Demo Images: <a href="https://unsplash.com">Unsplash</a>. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>-->
 								</footer>
 
 						</div>
@@ -153,6 +167,23 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script>
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}
+</script>
 
 	</body>
 </html>
