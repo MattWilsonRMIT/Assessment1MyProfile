@@ -152,6 +152,9 @@ h2 {
 
 h3 {
   font-size: 1.25em; }
+ h3.dreams:hover {
+  color: #00e6e6;
+}
 
 h4 {
   font-size: 1.1em; }
@@ -161,6 +164,20 @@ h5 {
 
 h6 {
   font-size: 0.7em; }
+
+  .interestimg {
+    height: 40%;
+    width: 40%;
+    padding-left: 20px;
+    padding-bottom: 5px;
+  }
+
+.jobimg {
+    height: 55%;
+    width: 55%;
+    padding-left: 20px;
+    padding-bottom: 5px;
+  }
 
 @media screen and (max-width: 1680px) {
   h1 {
@@ -1528,7 +1545,7 @@ button,
   input[type="button"]:hover,
   button:hover,
   .button:hover {
-    background-color: rgba(245, 106, 106, 0.05); }
+    background-color: #004d4d; }
   input[type="submit"]:active,
   input[type="reset"]:active,
   input[type="button"]:active,
@@ -1941,8 +1958,8 @@ button,
   -webkit-transition: margin-left 0.5s ease, box-shadow 0.5s ease;
   -ms-transition: margin-left 0.5s ease, box-shadow 0.5s ease;
   transition: margin-left 0.5s ease, box-shadow 0.5s ease;
-  background-color: transparent;
-  font-size: 0.9em;
+  background-color: black;
+   font-size: 0.9em;
   position: relative;
   width: 26em; }
   #sidebar h2 {
