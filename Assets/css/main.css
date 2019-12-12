@@ -172,6 +172,20 @@ h6 {
     padding-bottom: 5px;
   }
 
+  .personalityimg {
+    height: 70%;
+    width: 30%;
+    padding-bottom: 5px;
+	padding-left: 20px;
+  }
+  
+   .cognitiveimg {
+    height: 60%;
+    width: 35%;
+    padding-left: 20px;
+    padding-bottom: 20px;
+  }
+  
 .jobimg {
     height: 35%;
     width: 55%;
@@ -1910,6 +1924,9 @@ button,
         padding: 3em 0 1em 0 ; } }
 
 /* Sidebar */
+.active-page {
+	background-color: #404040;
+}
 #search form {
   text-decoration: none;
   position: relative; }
